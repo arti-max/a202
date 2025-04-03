@@ -5,7 +5,9 @@
 ## Instructions
 
 *RR - register*
+
 *DD - imm data*
+
 *RP - register pair*
 
 - NOP 00 - none
@@ -35,6 +37,7 @@
 **Base instruction:**
 
 `opc opr` - `xx yy` [4-bit]
+
 LDM: 01 DD
 
 SWP: 10 RR
@@ -43,9 +46,13 @@ SWP: 10 RR
 *All extended instructions starts with 11*
 
 `ext opc opr` - `11 xx yy` [6-bit]
+
 ADD: 11 00 RR
+
 JUN: 11 01 RP
+
 JC:  11 10 RP
+
 OUT: 11 11 DD
 
 
