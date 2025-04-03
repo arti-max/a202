@@ -35,8 +35,8 @@
 **Base instruction:**
 
 `opc opr` - `xx yy` [4-bit]
-LDM: 01 DD
-SWP: 10 RR
+LDM: 01 DD \n
+SWP: 10 RR \n
 
 **Extended instruction:**
 *All extended instructions starts with 11*
