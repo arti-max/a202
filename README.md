@@ -15,7 +15,7 @@
 - SWP RR - Swipe Acc and R[0-3]
 - ADD RR - Add data from reg to Acc
 - JUN RP - Jump Unconditional, Addr from R0:R1 rp = 0 or R2:R3 rp = 1
-- JC RP  - Ju,p if Carry, Addr from R0:R1 rp = 0 or R2:R3 rp = 1
+- JC RP  - Jump if Carry, Addr from R0:R1 rp = 0 or R2:R3 rp = 1
 - OUT DD - Transfer Data from Acc to port [imm value]
 
 ## Registers
